@@ -26,12 +26,9 @@ public class BaseTest {
         String browser=config.getBrowser();
         String url=config.getBaseUrl();
 
-       
-
         if (browser==null || url==null) {
             throw new RuntimeException("Config values missing");
         }
-
         WebDriver localDriver;
 
         switch (browser.toLowerCase()) {
