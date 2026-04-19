@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="16" passed="16" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-04-19T21:54:16 IST" name="Automation Suite" finished-at="2026-04-19T21:55:47 IST" duration-ms="90545">
+    <groups>
+    </groups>
+    <test started-at="2026-04-19T21:54:16 IST" name="Form Validation Tests" finished-at="2026-04-19T21:54:30 IST" duration-ms="13327">
+      <class name="tests.FormValidationsTest">
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext)[pri:0, instance:tests.FormValidationsTest@5dafbe45]" started-at="2026-04-19T21:54:16 IST" name="setUp" finished-at="2026-04-19T21:54:21 IST" duration-ms="4634" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@47c81abf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyDuplicateEmailRegistration()[pri:0, instance:tests.FormValidationsTest@5dafbe45]" started-at="2026-04-19T21:54:21 IST" name="verifyDuplicateEmailRegistration" finished-at="2026-04-19T21:54:24 IST" duration-ms="2444" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDuplicateEmailRegistration -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.FormValidationsTest@5dafbe45]" started-at="2026-04-19T21:54:21 IST" name="setup" finished-at="2026-04-19T21:54:21 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FormValidationsTest@5dafbe45]" started-at="2026-04-19T21:54:24 IST" name="tearDown" finished-at="2026-04-19T21:54:24 IST" duration-ms="371" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext)[pri:0, instance:tests.FormValidationsTest@5dafbe45]" started-at="2026-04-19T21:54:24 IST" name="setUp" finished-at="2026-04-19T21:54:28 IST" duration-ms="3754" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@47c81abf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.FormValidationsTest@5dafbe45]" started-at="2026-04-19T21:54:28 IST" name="setup" finished-at="2026-04-19T21:54:28 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyPasswordValidation()[pri:0, instance:tests.FormValidationsTest@5dafbe45]" started-at="2026-04-19T21:54:28 IST" name="verifyPasswordValidation" finished-at="2026-04-19T21:54:29 IST" duration-ms="1671" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPasswordValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FormValidationsTest@5dafbe45]" started-at="2026-04-19T21:54:29 IST" name="tearDown" finished-at="2026-04-19T21:54:30 IST" duration-ms="393" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.FormValidationsTest -->
+    </test> <!-- Form Validation Tests -->
+    <test started-at="2026-04-19T21:54:16 IST" name="User Purchase Flow Tests" finished-at="2026-04-19T21:55:47 IST" duration-ms="90545">
+      <class name="tests.LoginTest">
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext)[pri:0, instance:tests.LoginTest@723ca036]" started-at="2026-04-19T21:54:19 IST" name="setUp" finished-at="2026-04-19T21:54:21 IST" duration-ms="2179" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@776a6d9b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@723ca036]" started-at="2026-04-19T21:54:21 IST" name="verifyLogin" data-provider="loginExcelData" finished-at="2026-04-19T21:54:23 IST" duration-ms="1840" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[vaishnaviperumalla@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[success]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@723ca036]" started-at="2026-04-19T21:54:23 IST" name="tearDown" finished-at="2026-04-19T21:54:23 IST" duration-ms="397" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext)[pri:0, instance:tests.LoginTest@723ca036]" started-at="2026-04-19T21:54:23 IST" name="setUp" finished-at="2026-04-19T21:54:25 IST" duration-ms="1510" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@776a6d9b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@723ca036]" started-at="2026-04-19T21:54:25 IST" name="verifyLogin" data-provider="loginExcelData" finished-at="2026-04-19T21:54:29 IST" duration-ms="4298" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[wrong@test.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wrong123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[failure]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@723ca036]" started-at="2026-04-19T21:54:29 IST" name="tearDown" finished-at="2026-04-19T21:54:29 IST" duration-ms="344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext)[pri:0, instance:tests.LoginTest@723ca036]" started-at="2026-04-19T21:54:29 IST" name="setUp" finished-at="2026-04-19T21:54:31 IST" duration-ms="2122" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@776a6d9b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@723ca036]" started-at="2026-04-19T21:54:31 IST" name="verifyLogin" data-provider="loginExcelData" finished-at="2026-04-19T21:54:32 IST" duration-ms="418" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[empty]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@723ca036]" started-at="2026-04-19T21:54:32 IST" name="tearDown" finished-at="2026-04-19T21:54:32 IST" duration-ms="517" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext)[pri:0, instance:tests.LoginTest@723ca036]" started-at="2026-04-19T21:54:32 IST" name="setUp" finished-at="2026-04-19T21:54:35 IST" duration-ms="2542" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@776a6d9b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLogout()[pri:0, instance:tests.LoginTest@723ca036]" started-at="2026-04-19T21:54:35 IST" name="verifyLogout" finished-at="2026-04-19T21:54:37 IST" duration-ms="1817" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@723ca036]" started-at="2026-04-19T21:54:37 IST" name="tearDown" finished-at="2026-04-19T21:54:37 IST" duration-ms="289" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LoginTest -->
+      <class name="tests.OrderTest">
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext)[pri:0, instance:tests.OrderTest@1a4927d6]" started-at="2026-04-19T21:55:18 IST" name="setUp" finished-at="2026-04-19T21:55:19 IST" duration-ms="1504" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@776a6d9b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:tests.OrderTest@1a4927d6]" started-at="2026-04-19T21:55:19 IST" name="setupTest" finished-at="2026-04-19T21:55:24 IST" duration-ms="4666" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="verifyOrderAppears()[pri:0, instance:tests.OrderTest@1a4927d6]" started-at="2026-04-19T21:55:24 IST" name="verifyOrderAppears" finished-at="2026-04-19T21:55:25 IST" duration-ms="1370" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOrderAppears -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.OrderTest@1a4927d6]" started-at="2026-04-19T21:55:25 IST" name="tearDown" finished-at="2026-04-19T21:55:26 IST" duration-ms="265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext)[pri:0, instance:tests.OrderTest@1a4927d6]" started-at="2026-04-19T21:55:26 IST" name="setUp" finished-at="2026-04-19T21:55:27 IST" duration-ms="1341" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@776a6d9b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:tests.OrderTest@1a4927d6]" started-at="2026-04-19T21:55:27 IST" name="setupTest" finished-at="2026-04-19T21:55:33 IST" duration-ms="6038" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="verifyOrderDetails()[pri:0, instance:tests.OrderTest@1a4927d6]" started-at="2026-04-19T21:55:33 IST" name="verifyOrderDetails" finished-at="2026-04-19T21:55:34 IST" duration-ms="1479" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOrderDetails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.OrderTest@1a4927d6]" started-at="2026-04-19T21:55:34 IST" name="tearDown" finished-at="2026-04-19T21:55:35 IST" duration-ms="305" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext)[pri:0, instance:tests.OrderTest@1a4927d6]" started-at="2026-04-19T21:55:35 IST" name="setUp" finished-at="2026-04-19T21:55:41 IST" duration-ms="6125" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@776a6d9b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:tests.OrderTest@1a4927d6]" started-at="2026-04-19T21:55:41 IST" name="setupTest" finished-at="2026-04-19T21:55:45 IST" duration-ms="4452" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="verifyOrderHistoryFields()[pri:0, instance:tests.OrderTest@1a4927d6]" started-at="2026-04-19T21:55:45 IST" name="verifyOrderHistoryFields" finished-at="2026-04-19T21:55:47 IST" duration-ms="1464" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOrderHistoryFields -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.OrderTest@1a4927d6]" started-at="2026-04-19T21:55:47 IST" name="tearDown" finished-at="2026-04-19T21:55:47 IST" duration-ms="272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.OrderTest -->
+      <class name="tests.CartTest">
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext)[pri:0, instance:tests.CartTest@491b9b8]" started-at="2026-04-19T21:54:50 IST" name="setUp" finished-at="2026-04-19T21:54:51 IST" duration-ms="1413" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@776a6d9b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:tests.CartTest@491b9b8]" started-at="2026-04-19T21:54:51 IST" name="setupTest" finished-at="2026-04-19T21:54:52 IST" duration-ms="369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="verifyCheckout()[pri:0, instance:tests.CartTest@491b9b8]" started-at="2026-04-19T21:54:52 IST" name="verifyCheckout" finished-at="2026-04-19T21:54:56 IST" duration-ms="4142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCheckout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CartTest@491b9b8]" started-at="2026-04-19T21:54:56 IST" name="tearDown" finished-at="2026-04-19T21:54:56 IST" duration-ms="495" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext)[pri:0, instance:tests.CartTest@491b9b8]" started-at="2026-04-19T21:54:56 IST" name="setUp" finished-at="2026-04-19T21:54:58 IST" duration-ms="1617" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@776a6d9b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:tests.CartTest@491b9b8]" started-at="2026-04-19T21:54:58 IST" name="setupTest" finished-at="2026-04-19T21:54:58 IST" duration-ms="353" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="verifyDeleteProduct()[pri:0, instance:tests.CartTest@491b9b8]" started-at="2026-04-19T21:54:58 IST" name="verifyDeleteProduct" finished-at="2026-04-19T21:55:03 IST" duration-ms="5219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDeleteProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CartTest@491b9b8]" started-at="2026-04-19T21:55:03 IST" name="tearDown" finished-at="2026-04-19T21:55:04 IST" duration-ms="246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext)[pri:0, instance:tests.CartTest@491b9b8]" started-at="2026-04-19T21:55:04 IST" name="setUp" finished-at="2026-04-19T21:55:07 IST" duration-ms="3104" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@776a6d9b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:tests.CartTest@491b9b8]" started-at="2026-04-19T21:55:07 IST" name="setupTest" finished-at="2026-04-19T21:55:07 IST" duration-ms="452" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="verifyProductsInCart()[pri:0, instance:tests.CartTest@491b9b8]" started-at="2026-04-19T21:55:07 IST" name="verifyProductsInCart" finished-at="2026-04-19T21:55:10 IST" duration-ms="2651" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductsInCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CartTest@491b9b8]" started-at="2026-04-19T21:55:10 IST" name="tearDown" finished-at="2026-04-19T21:55:10 IST" duration-ms="252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext)[pri:0, instance:tests.CartTest@491b9b8]" started-at="2026-04-19T21:55:10 IST" name="setUp" finished-at="2026-04-19T21:55:12 IST" duration-ms="1557" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@776a6d9b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:tests.CartTest@491b9b8]" started-at="2026-04-19T21:55:12 IST" name="setupTest" finished-at="2026-04-19T21:55:12 IST" duration-ms="417" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="verifyTotalPrice()[pri:0, instance:tests.CartTest@491b9b8]" started-at="2026-04-19T21:55:12 IST" name="verifyTotalPrice" finished-at="2026-04-19T21:55:17 IST" duration-ms="5262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTotalPrice -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CartTest@491b9b8]" started-at="2026-04-19T21:55:17 IST" name="tearDown" finished-at="2026-04-19T21:55:18 IST" duration-ms="266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.CartTest -->
+      <class name="tests.ProductTest">
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext)[pri:0, instance:tests.ProductTest@194fad1]" started-at="2026-04-19T21:54:37 IST" name="setUp" finished-at="2026-04-19T21:54:39 IST" duration-ms="1641" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@776a6d9b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUpTest()[pri:0, instance:tests.ProductTest@194fad1]" started-at="2026-04-19T21:54:39 IST" name="setUpTest" finished-at="2026-04-19T21:54:39 IST" duration-ms="475" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method signature="verifyAddToCart()[pri:0, instance:tests.ProductTest@194fad1]" started-at="2026-04-19T21:54:39 IST" name="verifyAddToCart" finished-at="2026-04-19T21:54:40 IST" duration-ms="1374" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddToCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ProductTest@194fad1]" started-at="2026-04-19T21:54:40 IST" name="tearDown" finished-at="2026-04-19T21:54:41 IST" duration-ms="267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext)[pri:0, instance:tests.ProductTest@194fad1]" started-at="2026-04-19T21:54:41 IST" name="setUp" finished-at="2026-04-19T21:54:42 IST" duration-ms="1449" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@776a6d9b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUpTest()[pri:0, instance:tests.ProductTest@194fad1]" started-at="2026-04-19T21:54:42 IST" name="setUpTest" finished-at="2026-04-19T21:54:43 IST" duration-ms="451" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method signature="verifyMultipleProductsAdd()[pri:0, instance:tests.ProductTest@194fad1]" started-at="2026-04-19T21:54:43 IST" name="verifyMultipleProductsAdd" finished-at="2026-04-19T21:54:47 IST" duration-ms="4177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMultipleProductsAdd -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ProductTest@194fad1]" started-at="2026-04-19T21:54:47 IST" name="tearDown" finished-at="2026-04-19T21:54:47 IST" duration-ms="277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext)[pri:0, instance:tests.ProductTest@194fad1]" started-at="2026-04-19T21:54:47 IST" name="setUp" finished-at="2026-04-19T21:54:49 IST" duration-ms="1561" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@776a6d9b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUpTest()[pri:0, instance:tests.ProductTest@194fad1]" started-at="2026-04-19T21:54:49 IST" name="setUpTest" finished-at="2026-04-19T21:54:49 IST" duration-ms="400" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method signature="verifyProductListing()[pri:0, instance:tests.ProductTest@194fad1]" started-at="2026-04-19T21:54:49 IST" name="verifyProductListing" finished-at="2026-04-19T21:54:50 IST" duration-ms="585" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductListing -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ProductTest@194fad1]" started-at="2026-04-19T21:54:50 IST" name="tearDown" finished-at="2026-04-19T21:54:50 IST" duration-ms="231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.ProductTest -->
+    </test> <!-- User Purchase Flow Tests -->
+  </suite> <!-- Automation Suite -->
+</testng-results>
